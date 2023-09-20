@@ -1,5 +1,4 @@
 import Button from "@/components/Button";
-import Logo from "@/components/Logo";
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { CgClose } from "react-icons/cg";
@@ -10,7 +9,7 @@ function Navbar() {
   const [responsiveNavVisible, setResponsiveNavVisible] = useState(false);
   const sectionLinks = [
     { name: "About", link: "/#about" },
-    { name: "Experience", link: "/#experience" },
+    // { name: "Experience", link: "/#experience" },
     { name: "Work", link: "/#work" },
     {
       name: "Contact",
@@ -62,9 +61,7 @@ function Navbar() {
             ease: "easeInOut",
           }}
         >
-          <Link href="kishansheth.com">
-            <Logo />
-          </Link>
+          
         </motion.div>
         <motion.div
           className="nav-responsive-toggle"

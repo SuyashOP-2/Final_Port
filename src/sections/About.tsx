@@ -58,18 +58,18 @@ function About() {
       <img src="/reactjs.png" alt="React icon" />
       <p>React</p>
     </div>
-    <div className="about-grid-info-text">
+    {/* <div className="about-grid-info-text">
       <img src="/redux.png" alt="Redux Toolkit icon" />
       <p>Redux</p>
-    </div>
+    </div> */}
     <div className="about-grid-info-text">
       <img src="/html.png" alt="HTML icon" />
       <p>HTML</p>
     </div>
-    <div className="about-grid-info-text">
+    {/* <div className="about-grid-info-text">
       <img src="/typescript.png" alt="TypeScript icon" />
       <p>TypeScript</p>
-    </div>
+    </div> */}
     <div className="about-grid-info-text">
       <img src="/firebase.png" alt="Firebase icon" />
       <p>Firebase</p>

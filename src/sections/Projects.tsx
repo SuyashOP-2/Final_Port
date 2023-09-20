@@ -87,8 +87,8 @@ function Projects() {
     {
       image: "/project5.png",
       projectName: "Tesla Clone",
-        externalLink: "https://giphy-suyashop-2.vercel.app",
-        projectLink: "https://giphy-suyashop-2.vercel.app",
+        externalLink: "elontesla.netlify.app/",
+        projectLink: "elontesla.netlify.app/",
       // projectDescription:
       //   "I made a Netflix copy with TMBD Api. It has infinite scrolling and lets you watch movies by genre. You can also add movies to your favorites list.",
       projectTech: [
@@ -97,7 +97,7 @@ function Projects() {
       ],
       projectExternalLinks: {
         github: "https://github.com/SuyashOP-2/GIPHY",
-        externalLink: "https://giphy-suyashop-2.vercel.app",
+        externalLink: "https://elontesla.netlify.app/",
       },
     },
   ];
